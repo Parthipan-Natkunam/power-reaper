@@ -1,4 +1,7 @@
 #pycache
-**__pycache__
+**__pycache__**
 #egg files
 powerreaper.egg-info
+
+#dist files
+**dist**
