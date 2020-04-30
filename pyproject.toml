@@ -2,7 +2,7 @@
 name = "powerReaper"
 version = "0.1.0"
 description = ""
-authors = ["Parthipan N <natkunamparthipan@gmail.com>"]
+authors = ["Parthipan N"]
 
 [tool.poetry.scripts]
 reap = "powerreaper.reap:main"
