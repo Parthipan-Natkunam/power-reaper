@@ -11,6 +11,7 @@ reap = "powerreaper.reap:main"
 python = "3.7.5"
 requests = "2.23.0"
 beautifulsoup4 = "^4.9.0"
+click = "^7.1.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^4.6"
