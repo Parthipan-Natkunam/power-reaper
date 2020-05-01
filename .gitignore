@@ -1,7 +1,11 @@
-#pycache
+#pycache folder
 **__pycache__**
-#egg files
+
+#egg folder
 powerreaper.egg-info
 
-#dist files
+#dist folder
 **dist**
+
+#data file
+power_data.txt
