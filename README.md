@@ -5,7 +5,7 @@ A web scrapper to collect power-cut data for the city of Bengaluru from the publ
 This is a python3 package to scrape publicly available data regarding unplanned power cuts in the city od Bengaluru.
 
 <p align="center">
-    ![screenshot](./img/screenshot.png "PowerReaper at work")
+    <img src="./img/screenshot.png" alt="screenshot"/>
 </p>
 
 ### Intention:
@@ -47,5 +47,4 @@ After building the project from source as described above, do the following:
     python3 -c "from powerreaper import reap; reap.main()"
 ```
 
-<br/>
-The above command will create a text file named ```power_data.txt``` in you current working directory.
+The above command will create a text file named `power_data.txt` in you current working directory.
