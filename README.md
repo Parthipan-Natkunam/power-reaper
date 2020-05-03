@@ -15,7 +15,7 @@ for the people of the city.
 
 ### Features of the standalone package:
 
-- Fetches publibly available data from source website
+- Fetches publicly available data from source website
 - Does a basic data cleaning
 - Formats the data in a manner easier for a computer program to utlize the data later on.
 - Save the cleansed and formatted data as a text file in the current working directory.
