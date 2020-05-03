@@ -84,10 +84,11 @@ def get_row_data(rows):
             cols = row.find_all('td')
             colData = []
             for index, val in enumerate(cols):
-                if None in val:
-                    colData.append('N/A')
                 if (not index in excludedIndices):
-                    colData.append(val.text.strip())
+                    if None in val:
+                        colData.append('N/A')
+                    else:
+                        colData.append(val.text.strip())
                 if(index == maxIndex):
                     data.append(power_data(colData))
         print_success("PowerReaper: Rows processing successful")
